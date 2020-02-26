@@ -24,9 +24,11 @@ public class Main {
 
         System.out.println(groceryLine);
 
+        // get() -> gets the objet's whose index we're looking for
         String sam = groceryLine.get(0);
         System.out.println(sam);
 
+        // indexOf() -> gets us the index of the object we're looking for
         int lisaIndex = groceryLine.indexOf("Lisa");
         System.out.println(lisaIndex);
 
