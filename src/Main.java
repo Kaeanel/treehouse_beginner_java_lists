@@ -9,6 +9,7 @@ public class Main {
         groceryLine.add("Jerome");
         groceryLine.add("Beth");
         groceryLine.add("Sam");
+        groceryLine.add("Lisa");
 
         // printing out our list
         System.out.println(groceryLine);
@@ -25,5 +26,20 @@ public class Main {
 
         String sam = groceryLine.get(0);
         System.out.println(sam);
+
+        int lisaIndex = groceryLine.indexOf("Lisa");
+        System.out.println(lisaIndex);
+
+        System.out.println(groceryLine.size());
+
+        for (String name : groceryLine){
+            System.out.println(name);
+        }
+
+        // clear() -> removes all the items from the list
+        groceryLine.clear();
+
+        System.out.println(groceryLine);
+
     }
 }
